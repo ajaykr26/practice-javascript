@@ -1,0 +1,59 @@
+{
+  "listOfApps": {
+    "EBS ST": {
+      "emulatorToUse": "PCOM",
+      "startingScreen": "PreloginScreen",
+      "startingField": "ScreenText"
+    },
+    "EBS SDB": {
+      "emulatorToUse": "PCOM",
+      "startingScreen": "Prelogin",
+      "startingField": "Screentext",
+      "launchTextToEnter": "logon applid(gxbcictd)"
+    },
+    "Avaya": {
+      "emulator ToUse": "AVAYA"
+    },
+    "FIREFLY": {
+      "emulatorToUse": "FIREFLY"
+    },
+    "ECLIPSE": {
+      "emulatorToUse": "WEB"
+    }
+  },
+  "desktopApplications": {
+    "PCOMEBSST": {
+      "fileName": "pcsws",
+      "args": [
+        "/S=A",
+        "C:\\ProgramData\\IBM\\Personal Communications\\EBS.NS"
+      ],
+      "workingDirectory": "C:\\Program Files (x86)\\IBM)\\Personal Communications",
+      "defaultApp1LaunchWait": 20000
+    },
+    "PCOMSTOP": {
+      "fileName": "pcomstop",
+      "args": [
+        "/S=A",
+        "C:\\ProgramData\\IBM\\Personal Communications\\EBS.NS"
+      ],
+      "workingDirectory": "C:\\Program Files (x86)\\IBM)\\Personal Communications"
+    },
+    "SALESFORCEDESKTOP": {
+      "fileName": "cmd",
+      "args": [
+        "/c",
+        "C:\\CONCIERGE\\Salesforce.Ink"
+      ],
+      "workingDirectory": "C:\\windows\\system32",
+      "defaultAppLaunchWait": 40000
+    }
+  },
+  "webApplications": {
+    "ECLIPSE": {
+      "instance": "Existing",
+      "title": "Eclipse-Login",
+      "browser": "INTERNET EXPLORER"
+    }
+  }
+}

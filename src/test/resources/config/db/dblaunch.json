@@ -1,0 +1,16 @@
+{
+  "listOfApps": {
+    "Olympus": {
+      "databaseToUse": "Oracle"
+    }
+  },
+  "databaseConnectors": {
+    "Oracle": {
+      "dbDriver": "oracle.jdbc.driver.OracleDriver"
+    },
+    "Teradata": {
+      "dbDriver": "com.teradata.jdbc.TeraDriver",
+      "dbURL": "jdbc:url"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Web Automation": {
+    "firstname": "One",
+    "lastname": "kumar",
+    "mobile": "11111111",
+    "password": "ajay@1234"
+  },
+  "PDF Automation": {
+    "pdfFilepath": "C:\\Users\\SA210517\\IdeaProjects\\automation-runner\\src\\test\\resources\\testdata\\"
+  },
+  "API Automation": {
+    "name": "ajay"
+  },
+  "DB Automation": {
+  },
+  "Mobile Automation": {
+  },
+  "Mainframe Automation": {
+  },
+  "Desktop Automation": {
+  }
+}
